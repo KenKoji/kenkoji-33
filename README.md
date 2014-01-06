@@ -7,3 +7,5 @@
 講義名：情報メディア演習 Kinect演習
 
 担当教員：白井先生、谷中先生
+
+https://github.com/KenKoji/kenkoji-33/wiki
