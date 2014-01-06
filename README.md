@@ -8,4 +8,4 @@
 
 担当教員：白井先生、谷中先生
 
-https://github.com/KenKoji/kenkoji-33/wiki
+小島健太郎のwiki：https://github.com/KenKoji/kenkoji-33/wiki
