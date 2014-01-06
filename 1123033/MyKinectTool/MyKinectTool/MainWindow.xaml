@@ -1,0 +1,25 @@
+﻿<Window x:Class="MyKinectTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="385" Width="692" Loaded="Window_Loaded">
+    <Grid Height="339">
+        <Canvas Height="255" HorizontalAlignment="Left" Margin="12,72,0,0" Name="canvas1" VerticalAlignment="Top" Width="320" OpacityMask="{x:Null}" Background="Black" />
+        <Label Content="構え姿勢" Height="28" HorizontalAlignment="Left" Margin="345,105,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="姿勢1" Height="28" HorizontalAlignment="Left" Margin="362,139,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="姿勢2" Height="28" HorizontalAlignment="Left" Margin="362,173,0,0" Name="label3" VerticalAlignment="Top" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="472,105,0,0" Name="slider1" VerticalAlignment="Top" Width="100" Maximum="100" Value="75" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="413,105,0,0" Name="label4" VerticalAlignment="Top" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="472,139,0,0" Maximum="100" Name="slider2" Value="75" VerticalAlignment="Top" Width="100" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="472,178,0,0" Maximum="100" Name="slider3" Value="75" VerticalAlignment="Top" Width="100" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="413,139,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="413,173,0,0" Name="label6" VerticalAlignment="Top" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="472,207,0,0" Name="slider4" VerticalAlignment="Top" Width="100" Maximum="200" Value="100" />
+        <Label Content="構え時間" Height="28" HorizontalAlignment="Left" Margin="345,202,0,0" Name="label7" VerticalAlignment="Top" />
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="413,202,0,0" Name="label8" VerticalAlignment="Top" />
+        <Button Content="姿勢を保存" Height="23" HorizontalAlignment="Left" Margin="578,105,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Button Content="姿勢を保存" Height="23" HorizontalAlignment="Left" Margin="578,139,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+        <Button Content="姿勢を保存" Height="23" HorizontalAlignment="Left" Margin="578,175,0,0" Name="button3" VerticalAlignment="Top" Width="75" Click="button3_Click" />
+        <Label Content="認識状態：" Height="48" HorizontalAlignment="Left" Margin="358,279,0,0" Name="label9" VerticalAlignment="Top" FontSize="30" Width="291" />
+        <Label Content="かめはめ波を体験してみよう！" Height="52" HorizontalAlignment="Left" Margin="141,12,0,0" Name="label10" VerticalAlignment="Top"  FontSize="25" Width="350" />
+    </Grid>
+</Window>
